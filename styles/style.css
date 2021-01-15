@@ -105,7 +105,14 @@ body {
 }
 
 @media all and (max-width: 1100px) {
+
+    .l-grid {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
     .l-grid__item--tall {
+        
         grid-column: span 4;
         grid-row: 3 / span 1;
     }
@@ -118,7 +125,6 @@ body {
 @media all and (max-width: 800px) {
     .l-grid {
         margin: 10px auto;
-        padding: 20px;
         display: block;
     }
 
