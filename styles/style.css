@@ -92,3 +92,12 @@ body {
 .quote__content--white {
     color: hsl(217, 19%, 35%);
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
