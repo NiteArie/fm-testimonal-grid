@@ -1,5 +1,9 @@
 # fm-testimonal-grid (Testimonal Grid)
 
+## Live Preview
+
+Live View: [https://nitearie.github.io/fm-testimonal-grid/](https://nitearie.github.io/fm-testimonal-grid/)
+
 ## Design Preivew
 
 > Desktop
