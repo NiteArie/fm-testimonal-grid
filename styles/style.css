@@ -6,6 +6,90 @@
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    /* height: 100vh; */
     font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
 }
 
+.l-grid {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+.l-grid__item--tall {
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+}
+
+.l-grid__item--large {
+    grid-column: span 2;
+}
+
+.l-grid__item--smalL {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.quote {
+    padding: 30px;
+    color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+}
+
+.quote--purple {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.quote--grey {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.quote--black {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.quote--white {
+    background-color: white;
+    color: black;
+}
+
+.quote__about {
+    display: flex;
+    align-items: center;
+}
+
+.quote__profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.quote__info {
+    margin-left: 15px;
+    line-height: 1.25;
+}
+
+.quote__role {
+    color: hsl(0, 0%, 81%);
+}
+
+.quote__headline {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.quote__content {
+    color: hsl(0, 0%, 81%);
+    line-height: 1.5;
+}
+
+.quote__content--white {
+    color: hsl(217, 19%, 35%);
+}
